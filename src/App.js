@@ -7,7 +7,23 @@ class App extends Component {
   id = 0;
 
   state = {
-    information: []
+    information: [
+      {
+        name: '홍길동',
+        phone: '1234',
+        id: 0
+      },
+      {
+        name: 'rlfflf길동',
+        phone: '11111',
+        id: 1
+      },
+      {
+        name: 'John',
+        phone: '222222',
+        id: 2
+      }
+    ]
   }
 
   handleCraete = (data) => {
