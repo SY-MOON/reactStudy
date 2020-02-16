@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 //Fragment div말고 감쌀때
 class PhoneInfo extends Component {
+	
 	state = {
 		editing: false,
 		name: '',

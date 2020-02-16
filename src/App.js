@@ -4,7 +4,7 @@ import PhoneForm from './components/PhoneForm';
 import PhoneInfoList from './components/PhoneInfoList';
 
 class App extends Component {
-  id = 0;
+  id = 3;
 
   state = {
     information: [
